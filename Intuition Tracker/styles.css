@@ -1,0 +1,54 @@
+.heading{
+    color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.line{
+    color: yellowgreen;
+}
+
+.text{
+    color:mediumorchid;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+}
+
+.StButton{
+    margin-top: 80px;
+    color:red;
+    font: outline;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.QuestionDiv{
+    display: none; 
+    margin-left: 200px;
+}
+
+.QuestionLastDiv{
+    display: none; 
+    margin-left: 200px;
+}
+
+.questionWithNumber{
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.centreQuestion{
+    padding: 50px 0px 10px 500px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: grey;
+}
