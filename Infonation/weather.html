@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Track weather</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <center class="overall">
+            <h1 class="SelectCountry">Enter any place on the gl<i class="fa fa-globe" aria-hidden="true"></i>be</h1>
+            <input type="text" placeholder="Dwarka" id="Place" required>
+            <button class="buttonFlag" onclick="getWeather()">Get weather</button>
+            <h1 id="weatherReport"></h1>
+        </center>
+        <script src="app.js"></script>
+    </body>
+</html>
